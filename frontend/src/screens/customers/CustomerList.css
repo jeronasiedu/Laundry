@@ -1,0 +1,51 @@
+.item-container {
+  width: 100%;
+  font-family: 'fira sans';
+  background: rgb(198, 208, 219);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed #7c7a7a;
+  padding: 0.2rem;
+}
+.item-details .item-left {
+  text-transform: capitalize;
+}
+.item-left h3 {
+  font-weight: 500;
+}
+.item-left p {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.item-details .item-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.2rem;
+}
+.item-right h3 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.item-right p {
+  color: #4f5358;
+  font-size: 0.8rem;
+}
+.laundry-user-items {
+  padding: 0.5rem;
+}
+.user-item-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
